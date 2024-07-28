@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'dexhand_manus_gui'
+package_name = 'dexhandv2_manus_gui'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'gui_node = dexhand_manus_gui.gui_node:main'
+            'gui_node = dexhandv2_manus_gui.gui_node:main'
         ],
     },
 )
